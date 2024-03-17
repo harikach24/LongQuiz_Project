@@ -53,3 +53,4 @@ l10n/
 venv
 *.egg-info
 *.tar.gz
+venv
