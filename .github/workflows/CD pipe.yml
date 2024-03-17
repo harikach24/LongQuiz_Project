@@ -18,7 +18,7 @@ jobs:
         run: sudo docker pull $DOCKER_USER/quiz-fastapi:longquiz
     
       - name: Delete Old Docker Container
-        run: sudo docker rm -f bikeshare_api-container || true
+        run: sudo docker rm -f quiz-fastapi-container || true
     
       - name: Run Docker Container
         env: 
